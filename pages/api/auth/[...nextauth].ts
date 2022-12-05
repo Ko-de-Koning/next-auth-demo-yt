@@ -16,15 +16,15 @@ const authOptions: NextAuthOptions = {
         };
         // perform you login logic
         // find out user from db
-        if (email !== "john@gmail.com" || password !== "1234") {
+        if (email !== "jurjen@jacaranda.tree" || password !== "purple") {
           throw new Error("invalid credentials");
         }
 
         // if everything is fine
         return {
           id: "1234",
-          name: "John Doe",
-          email: "john@gmail.com",
+          name: "Jurjen",
+          email: "jurjen@jacaranda.tree",
           role: "admin",
         };
       },

@@ -28,7 +28,7 @@ const SignIn: NextPage = (props): JSX.Element => {
             setUserInfo({ ...userInfo, email: target.value })
           }
           type="email"
-          placeholder="john@email.com"
+          placeholder="jurjen@jacaranda.tree"
         />
         <input
           value={userInfo.password}
