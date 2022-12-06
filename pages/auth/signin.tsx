@@ -36,7 +36,7 @@ const SignIn: NextPage = (props): JSX.Element => {
             setUserInfo({ ...userInfo, password: target.value })
           }
           type="password"
-          placeholder="********"
+          placeholder="purple"
         />
         <input type="submit" value="Login" />
       </form>
